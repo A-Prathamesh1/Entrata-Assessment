@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="entrataTests.WatchDemoPageTest">
+        <methods>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="navigateToWatchDemoPage"/>
+          <include name="fillWatchDemoForm"/>
+          <include name="launchTest"/>
+        </methods>
+      </class> <!-- entrataTests.WatchDemoPageTest -->
+      <class name="entrataTests.HomePageTest">
+        <methods>
+          <include name="init"/>
+          <include name="launchTest"/>
+          <include name="navigateToWatchDemoPage"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- entrataTests.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

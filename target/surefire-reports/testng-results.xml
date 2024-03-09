@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-09T15:23:19 IST" name="Entrata-Test-Suite" finished-at="2024-03-09T15:24:07 IST" duration-ms="47849">
+    <groups>
+    </groups>
+    <test started-at="2024-03-09T15:23:19 IST" name="Test" finished-at="2024-03-09T15:24:07 IST" duration-ms="47849">
+      <class name="entrataTests.HeaderTest">
+        <test-method signature="isProductsTabPresentTest()[pri:0, instance:entrataTests.HeaderTest@1530c739]" started-at="2024-03-09T15:23:19 IST" name="isProductsTabPresentTest" finished-at="2024-03-09T15:23:22 IST" duration-ms="3133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isProductsTabPresentTest -->
+        <test-method signature="isSolutionsTabPresent()[pri:1, instance:entrataTests.HeaderTest@1530c739]" started-at="2024-03-09T15:23:22 IST" name="isSolutionsTabPresent" finished-at="2024-03-09T15:23:25 IST" duration-ms="3042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSolutionsTabPresent -->
+        <test-method signature="isResourcesTabPresent()[pri:2, instance:entrataTests.HeaderTest@1530c739]" started-at="2024-03-09T15:23:25 IST" name="isResourcesTabPresent" finished-at="2024-03-09T15:23:28 IST" duration-ms="3039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isResourcesTabPresent -->
+        <test-method signature="isBaseCampTabPresent()[pri:3, instance:entrataTests.HeaderTest@1530c739]" started-at="2024-03-09T15:23:28 IST" name="isBaseCampTabPresent" finished-at="2024-03-09T15:23:32 IST" duration-ms="3132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isBaseCampTabPresent -->
+        <test-method signature="isSignInButtonPresent()[pri:4, instance:entrataTests.HeaderTest@1530c739]" started-at="2024-03-09T15:23:32 IST" name="isSignInButtonPresent" finished-at="2024-03-09T15:23:35 IST" duration-ms="3104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSignInButtonPresent -->
+      </class> <!-- entrataTests.HeaderTest -->
+      <class name="entrataTests.ProductsTest">
+        <test-method signature="isProductsTabPresent()[pri:0, instance:entrataTests.ProductsTest@6e9175d8]" started-at="2024-03-09T15:23:35 IST" name="isProductsTabPresent" finished-at="2024-03-09T15:23:38 IST" duration-ms="3105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isProductsTabPresent -->
+        <test-method signature="navigateToPropertyManagement()[pri:1, instance:entrataTests.ProductsTest@6e9175d8]" started-at="2024-03-09T15:23:38 IST" name="navigateToPropertyManagement" finished-at="2024-03-09T15:23:45 IST" depends-on-methods="entrataTests.ProductsTest.isProductsTabPresent" duration-ms="6791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToPropertyManagement -->
+      </class> <!-- entrataTests.ProductsTest -->
+      <class name="entrataTests.BaseTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:entrataTests.BaseTest@2e385cce]" started-at="2024-03-09T15:23:00 IST" name="init" finished-at="2024-03-09T15:23:19 IST" duration-ms="19466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:entrataTests.BaseTest@2e385cce]" started-at="2024-03-09T15:24:07 IST" name="tearDown" finished-at="2024-03-09T15:24:09 IST" duration-ms="1683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- entrataTests.BaseTest -->
+      <class name="entrataTests.ResidentPayTest">
+        <test-method signature="isPorductsTabPresent()[pri:0, instance:entrataTests.ResidentPayTest@7d0b7e3c]" started-at="2024-03-09T15:23:45 IST" name="isPorductsTabPresent" finished-at="2024-03-09T15:23:48 IST" duration-ms="3123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPorductsTabPresent -->
+        <test-method signature="navigateToResidentPayPage()[pri:1, instance:entrataTests.ResidentPayTest@7d0b7e3c]" started-at="2024-03-09T15:23:48 IST" name="navigateToResidentPayPage" finished-at="2024-03-09T15:23:52 IST" depends-on-methods="entrataTests.ResidentPayTest.isPorductsTabPresent" duration-ms="4257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToResidentPayPage -->
+      </class> <!-- entrataTests.ResidentPayTest -->
+      <class name="entrataTests.WatchDemoPageTest">
+        <test-method signature="launchTest()[pri:0, instance:entrataTests.WatchDemoPageTest@15bb5034]" started-at="2024-03-09T15:23:52 IST" name="launchTest" finished-at="2024-03-09T15:23:55 IST" duration-ms="3210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTest -->
+        <test-method signature="navigateToWatchDemoPage()[pri:0, instance:entrataTests.WatchDemoPageTest@15bb5034]" started-at="2024-03-09T15:23:55 IST" name="navigateToWatchDemoPage" finished-at="2024-03-09T15:24:06 IST" depends-on-methods="entrataTests.WatchDemoPageTest.launchTest" duration-ms="10763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToWatchDemoPage -->
+        <test-method signature="fillWatchDemoForm()[pri:0, instance:entrataTests.WatchDemoPageTest@15bb5034]" started-at="2024-03-09T15:24:06 IST" name="fillWatchDemoForm" finished-at="2024-03-09T15:24:07 IST" depends-on-methods="entrataTests.WatchDemoPageTest.navigateToWatchDemoPage" duration-ms="1009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillWatchDemoForm -->
+      </class> <!-- entrataTests.WatchDemoPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Entrata-Test-Suite -->
+</testng-results>
